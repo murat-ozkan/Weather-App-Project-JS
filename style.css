@@ -1,6 +1,6 @@
 .box {
   height: 800px;
-  background-color: rgb(8,99,148);
+  background-color: rgb(8, 99, 148);
   /* width: 200px; */
 }
 .cards {
@@ -8,6 +8,7 @@
   height: 300px;
 }
 
-.btn{
-    background-color:tomato !important;
+.btn {
+  background-color: tomato !important;
+  color: azure !important;
 }
