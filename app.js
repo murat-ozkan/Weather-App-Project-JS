@@ -56,3 +56,11 @@ searchButton.addEventListener("click", function (e) {
       .catch((error) => console.log(error));
   }
 });
+
+//! Proje Nasıl Geliştirilebilir?
+//* Try-Catch yapısı ile hata yakalama.
+//* Veri gelmediğinde Kart açılmaması için düzenleme.
+//* En son aranan şehri ilk başa tutturma.
+//* İlk açılışta input focus.
+//* Arama sonrası input reset.
+//* Kartlara hava durmuna uygun iconlar yerleştir
