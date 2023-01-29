@@ -1,10 +1,10 @@
 .box {
-  height: 800px;
+  min-height: 100vh !important;
   background-color: rgb(8, 99, 148);
 }
 .cards {
-  width: 100px;
-  height: 300px;
+  max-width: 200px !important;
+  height: 323px !important;
 }
 
 .btn {
