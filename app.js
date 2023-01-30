@@ -18,22 +18,30 @@ searchButton.addEventListener("click", function (e) {
         city +
         ". Please search another city"
     );
+  } else if (city == "") {
+    alert("Please enter a valid city name.");
   } else {
-    fetch(`https://api.api-ninjas.com/v1/weather?city=${city}`, {
-      headers: { "X-Api-Key": "T6z75Z3C2s59SY6cTC1j7QKoIl6rKMcZbpAuPALQ" },
-    })
+    try{
+      const response = await fetch(`https://api.api-ninjas.com/v1/weather?city=${city}`, {
+        headers: { "X-Api-Key": "T6z75Z3C2s59SY6cTC1j7QKoIl6rKMcZbpAuPALQ" },
+      })
+       
+    }
+
+
+
+    
       .then((response) => response.json())
       .then((data) => {
         //! veri gelirse çalışacak kısım
+        console.log(data);
         cityList.push(city);
         const newCard = document.createElement("div");
         newCard.classList.add(
           "cards",
           "col-3",
-          "bg-warning-subtle",
-          "border",
-          "border-warning",
-          "rounded-pill",
+          "bg-light",
+          "rounded-5",
           "p-4",
           "shadow-lg"
         );
@@ -46,8 +54,6 @@ searchButton.addEventListener("click", function (e) {
         const maxTemp = data.max_temp;
         const minTemp = data.min_temp;
         const humidity = data.humidity;
-        console.log(data);
-
         newCard.innerHTML =
           "<h2 class='h5 pt-4 text-warning'>" +
           city +
@@ -68,6 +74,8 @@ searchButton.addEventListener("click", function (e) {
       })
       .catch((error) => {
         console.log(error.name);
+        console.log(error.message);
+        console.log("selam");
       });
   }
   searchArea.value = "";
