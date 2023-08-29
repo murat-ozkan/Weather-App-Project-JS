@@ -6,9 +6,9 @@
 # Thank you for your interest
 *****************************************************************
 # Try-Catch error handling. 👌
-# Don't open a card if data fetch failures. 👌
+# If data fetch fails, the card will not open. 👌
 # Last search city, first item 👌
-# Focus to the input when load the page👌
+# Focus on the input when loading the page👌
 # Reset input area after search 👌
-# Catch user's typing error 👌
-# Add icons to the card for different weather conditions ❌
+# Catch the user's typing error 👌
+# Add icons to the card for different weather conditions ❌ (future plans)
