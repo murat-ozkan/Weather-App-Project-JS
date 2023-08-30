@@ -84,4 +84,4 @@ searchButton.addEventListener("click", async function (e) {
 //* İlk açılışta input focus. 👌
 //* Arama sonrası input reset. 👌
 //* Hatalı girişleri yakalama. 👌
-//* Kartlara hava durmuna uygun iconlar yerleştir ❌
+//* Kartlara hava durmuna uygun iconlar yerleştirilebilir ❌
