@@ -1,9 +1,11 @@
 # Weather Information Page
 ![WeatherApp](https://user-images.githubusercontent.com/57629518/215613705-d5bdf129-4003-437f-af36-11c536fd810f.gif)
+
 *****************************************************************
 # You can try this page via this link 👇
 # https://murat-ozkan.github.io/04-Weather-App/
 # Thank you for your interest
+
 *****************************************************************
 # Try-Catch error handling. 👌
 # If data fetch fails, the card will not open. 👌
