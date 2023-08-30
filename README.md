@@ -3,7 +3,7 @@
 
 *****************************************************************
 # You can try this page via this link 👇
-# https://murat-ozkan.github.io/04-Weather-App/
+# https://murat-ozkan.github.io/Weather-App-Project-JS/
 # Thank you for your interest
 
 *****************************************************************
